@@ -47,7 +47,7 @@ class Quiz extends Component {
             isQuizEnd ? 
                 <QuizEnd /> : 
                 <QuizQuestion 
-                position={this.state.quiz_position}
+                //position={this.state.quiz_position}
                 quiz_question={quizData.quiz_questions[this.state.quiz_position-1]}
                 showNextQuestionHandler={this.showNextQuestion} />
         )

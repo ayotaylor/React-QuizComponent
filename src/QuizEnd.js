@@ -2,6 +2,7 @@ import React, {Component} from "react"
 
 class QuizEnd extends Component {
     render() {
+        console.log("Quiz End")
         return (
             <div>
                 <p>Thanks for playing!</p>
